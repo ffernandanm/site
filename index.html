@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> <!-- cabeçalho DO SITE | Até aqui não enxergamos no site-->
+
+<body>
+    <HEAder> <!-- cabeçalho DO SITE | a partir daqui é tudo que enxergamos no site-->
+        <h1>Fernanda</h1>
+        <nav> <!-- navegação DO SITE -->
+            <ul> <!-- lista não ordenada -->
+                <LI><a href="#sobre">Sobre mim </a></LI><!-- TÓPICOS -->
+                <LI><a href="#projetos">Projetos </a></LI>
+                <!-- Se colocar o href ele vai redirecionar, fazer link para clicar -->
+                <LI><a href="#contato">Contatos </a></LI>
+                <!--# transforma em link o texto, mas é um link que procura a seção dentro da página-->
+                <LI><a href="https://www.google.com.br/?hl=pt-BR" target="_blank">Google </a></LI>
+                <!--Para criar link externo usar https:// | target _blank para abrir em outra aba-->
+            </ul>
+        </nav>
+    </HEAder>
+    <section id="sobre">
+        <!-- conteudo DO SITE --><!--colo id para dizer onde vai linkar o que foi colocado na #, por isso os dois tem que ter o mesmo nome, ecrito igual-->
+        <h2>Sobre mim</h2><!--texto menor-->
+
+        <img src="https://img.freepik.com/vetores-gratis/cute-girl-hacker-operando-laptop-cartoon-vector-icon-ilustracao-pessoas-tecnologia-isolada-plana_138676-9487.jpg?ga=GA1.1.1538579441.1726711091&semt=ais_hybrid"
+            alt="imagem do drive" title="Imagem da internet" width="180" height="180">
+        <!-- src: caminho da imagem | Alt: texto alternativo para aparecer se a imagem não for visualizada no navegador -->
+        <img src="imagens/avatar01.jpg" alt="foto do computador" title="Imagem do computador" width="180"
+            height="180"><!-- title: texto que aparece ao passar o mouse-->
+        <article><!-- CRiar texto -->
+            <p>Olá! Sou a Fernanda e estou iniciando o curso de programação</p> <!-- parágrafo -->
+        </article>
+
+        <aside> <!-- conteudo secundario | A parte, uma nova parte do site-->
+            <h3>Habilidades</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </aside>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+
+        <article>
+            <h3>Portifólio</h3>
+            <p>
+                Este foi o primeiro site que desenvolvi estudando Front-End
+            </p>
+        </article>
+
+    </section>
+
+    <footer> <!-- rodape DO SITE -->
+        <p>Desenvolvido por Fernanda</p>
+        <h2>Contato</h2>
+        <p>Tem um projeto em mente? Entre em contato</p>
+        <address>
+            E-mail: <a
+                href="mailto:fernanda.n.m@gmail.com"></a>fernanda.n.m@gmail.com<!-- link de email | tag a é de redirecionamento-->
+            <br> <!-- quebra de linha -->
+            Telefone: <a href="tel:47996763095"></a>(47) 9 9676-3095
+        </address>
+    </footer>
+</body>
+
+</html>
